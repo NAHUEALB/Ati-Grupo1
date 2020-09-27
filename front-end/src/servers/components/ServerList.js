@@ -14,21 +14,25 @@ const ServerList = (props) => {
     );
   }
   return (
-    <div className="columnas">
-      {props.items.map((server) => (
-        <ServerItem
-          key={server.id}
-          id={server.id}
-          image={server.imageUrl}
-          imageTitle={server.imageTitle}
-          ping={server.ping}
-          mapName={server.mapName}
-          nameHost={server.nameHost}
-          players={server.players}
-          ip={server.ip}
-          rounds={server.rounds}
-        />
-      ))}
+    <div className="container-fluid">
+      <div className="row mt-5 justify-content-center">
+        <div className="col-xl-9 columnas">
+          {props.items.map((server) => (
+            <ServerItem
+              key={server.id}
+              id={server.id}
+              image={server.imageUrl}
+              imageTitle={server.imageTitle}
+              ping={server.ping}
+              mapName={server.mapName}
+              nameHost={server.nameHost}
+              players={server.players}
+              ip={server.ip}
+              rounds={server.rounds}
+            />
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

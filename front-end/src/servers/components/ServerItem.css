@@ -31,17 +31,17 @@
 }
 
 .pic {
-  width: 100%;
-  height: 100%;
+  width: 500px;
+  height: auto;
 }
 
-.actions {
+/* .actions {
   text-align: center;
   margin-top: 20px;
   width: 100%;
-}
+} */
 
-.btng {
+/* .btng {
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -69,7 +69,7 @@
   display: inline-block;
 
   line-height: 35px;
-}
+} */
 
 /* @media (min-width: 768px) {
   .server-item__image {
