@@ -7,10 +7,10 @@ import "bootstrap/dist/css/bootstrap.css";
 
 const ServerItem = (props) => {
   return (
-    <div className="container">
-      <div className=" row mt-3 justify-content-center">
-        <div className="col-md-12">
-          <Card>
+    <Card>
+      <div className="container">
+        <div className=" row justify-content-center">
+          <div className="col-md-12">
             <img src={props.image} alt="asd" className="pic" />
             {/* <p>{props.ping}</p>
         <p>{props.mapName}</p> */}
@@ -22,18 +22,16 @@ const ServerItem = (props) => {
               <p>ROUNDS: {props.rounds}</p>
             </div>
 
-            <div className="actions">
-              <button className="btn btn-primary btn-block" type="submit">
-                Unirse
-              </button>
-              <button className="btn btn-primary btn-block" type="submit">
-                Copiar data
-              </button>
-            </div>
-          </Card>
+            <button className="btn btn-primary btn-block" type="submit">
+              Unirse
+            </button>
+            <button className="btn btn-primary btn-block" type="submit">
+              Copiar data
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </Card>
   );
 };
 

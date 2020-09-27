@@ -36,12 +36,11 @@
 
 .pic {
   width: 500px;
-  height: auto;
+  height: 350px;
 }
 
 .actions {
   text-align: center;
-  margin-top: -10px;
 }
 
 /* .btng {

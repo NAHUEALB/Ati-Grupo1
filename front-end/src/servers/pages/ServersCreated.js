@@ -19,11 +19,11 @@ const DUMMY_SERVERS = [
   {
     id: "s2",
     imageUrl:
-      "https://static2.cs-bg.net/maps/images/screenshots/maps16/de/cs-2021-de_mirage.jpg",
+      "https://static2.cs-bg.net/maps/images/screenshots/maps16/de/cs-109-de_dust2.jpg",
     imageTitle: "de_mirage",
     ping: 60,
     mapName: "de_mirage",
-    nameHost: "Arian",
+    nameHost: "nahue",
     players: "5/10",
     ip: "198.168.54.32",
     rounds: "5",
