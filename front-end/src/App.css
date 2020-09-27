@@ -4,6 +4,8 @@
 
 .header {
   background-image: url("./images/cs.jpg");
+  background-position-x: right;
+  background-size: contain;
 }
 
 .App-logo {

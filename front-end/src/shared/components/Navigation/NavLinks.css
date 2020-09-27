@@ -12,6 +12,8 @@
 
 .nav-links li {
   margin: 1rem;
+  font-size: 32px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .nav-links a {

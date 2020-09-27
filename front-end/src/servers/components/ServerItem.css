@@ -21,13 +21,17 @@
 } */
 
 .titulo {
-  font-size: 15px;
   width: 100%;
-  color: black;
-  overflow: hidden;
+  color: #27211f;
+
   text-align: center;
-  margin-top: -220px;
+  margin-top: -210px;
+}
+
+.titulo p {
   font-weight: 800;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .pic {
@@ -35,11 +39,10 @@
   height: auto;
 }
 
-/* .actions {
+.actions {
   text-align: center;
-  margin-top: 20px;
-  width: 100%;
-} */
+  margin-top: -10px;
+}
 
 /* .btng {
   background-image: -webkit-gradient(

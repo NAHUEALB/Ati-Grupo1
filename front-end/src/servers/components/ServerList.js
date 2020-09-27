@@ -16,7 +16,7 @@ const ServerList = (props) => {
   return (
     <div className="container-fluid">
       <div className="row mt-5 justify-content-center">
-        <div className="col-xl-9 columnas">
+        <div className="col-xl-9 col-xs-12 columnas">
           {props.items.map((server) => (
             <ServerItem
               key={server.id}
