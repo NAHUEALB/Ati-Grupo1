@@ -1,6 +1,8 @@
 import React from "react";
 import ServerItem from "./ServerItem";
 import Card from "../../shared/components/UIElements/Card";
+
+import "bootstrap/dist/css/bootstrap.css";
 import "./ServerList.css";
 
 const ServerList = (props) => {

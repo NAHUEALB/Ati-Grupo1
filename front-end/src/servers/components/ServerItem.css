@@ -43,6 +43,16 @@
   text-align: center;
 }
 
+.cardServer {
+  background-color: #17223b;
+}
+.container {
+  background-color: #263859;
+}
+.w-100 {
+  background-color: #263859;
+}
+
 /* .btng {
   background-image: -webkit-gradient(
     linear,

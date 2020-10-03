@@ -8,16 +8,16 @@ import {
 } from "react-router-dom";
 import MainNavigation from "./shared/components/Navigation/MainNavigation";
 import ServersCreated from "./servers/pages/ServersCreated";
-import "./App.css";
+
 import "bootstrap/dist/css/bootstrap.css";
+
+import "./App.css";
 
 function App() {
   return (
     <Router>
       <MainNavigation />
-      <main className="header">
-        <h1 className="text-center text-primary ">PRUEBAS</h1>
-
+      <main className="header p-1">
         <Switch>
           <Route path="/" exact>
             <ServersCreated />
