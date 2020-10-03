@@ -3,9 +3,9 @@
 }
 
 .header {
-  background-image: url("./images/cs.jpg");
-  background-position-x: right;
-  background-size: contain;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(23,34,59,1) 10%, rgba(34,64,116,1) 100%);
+  padding-top: 1em; 
 }
 
 .App-logo {

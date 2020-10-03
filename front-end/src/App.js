@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <MainNavigation />
-      <main className="header p-1">
+      <main className="header">
         <Switch>
           <Route path="/" exact>
             <ServersCreated />

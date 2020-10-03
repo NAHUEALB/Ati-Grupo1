@@ -45,12 +45,19 @@
 
 .cardServer {
   background-color: #17223b;
+  border-radius: 1em;
 }
 .container {
   background-color: #263859;
+  border-radius: 1em;
 }
 .w-100 {
   background-color: #263859;
+}
+
+.bottomCard{
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
 }
 
 /* .btng {

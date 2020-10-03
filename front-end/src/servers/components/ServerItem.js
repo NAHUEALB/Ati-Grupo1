@@ -11,7 +11,11 @@ const ServerItem = (props) => {
       <div className="container">
         <div className="row justify-content-center rounded">
           <div className="server-item__image p-2">
-            <img src={props.image} alt="asd" className="pic img-fluid rounded" />
+            <img
+              src={props.image}
+              alt="asd"
+              className="pic img-fluid rounded"
+            />
             {/* <p>{props.ping}</p>
         <p>{props.mapName}</p> */}
           </div>
@@ -21,11 +25,18 @@ const ServerItem = (props) => {
             <p>IP: {props.ip}</p>
             <p>ROUNDS: {props.rounds}</p>
           </div>
-          <div className="w-100 p-2">
-            <button className="btn btn-primary btn-block" type="submit">
+          <div className="bottomCard w-100 p-2">
+            <a
+              href="steam://connect/45.235.98.40:27018"
+              className="btn btn-primary btn-block"
+            >
               Unirse
-            </button>
-            <button className="btn btn btn-outline-primary btn-block" type="submit">
+            </a>
+
+            <button
+              className="btn btn btn-outline-primary btn-block"
+              type="submit"
+            >
               Copiar data
             </button>
           </div>
