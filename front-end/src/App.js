@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import MainNavigation from "./shared/components/Navigation/MainNavigation";
 import ServersCreated from "./servers/pages/ServersCreated";
+import Formulario from "./shared/components/Navigation/Formulario";
 
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" exact>
             <ServersCreated />
           </Route>
+          <Route exact path="/create" component={Formulario} />
         </Switch>
         <Redirect to="/" />
       </main>

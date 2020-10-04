@@ -12,7 +12,7 @@ const NavLinks = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="create">Crear Sala</NavLink>
+        <NavLink to="/create">Crear Sala</NavLink>
       </li>
       <li>
         <NavLink to="auth">Ingresar</NavLink>
